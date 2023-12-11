@@ -35,6 +35,4 @@ public class Main {
     public static List<String> sortDesc(List<String> lista){
         return lista.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
     }
-
-
 }
